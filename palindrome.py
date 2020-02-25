@@ -47,5 +47,20 @@ class Solution:
 # Test program
 print(str(Solution().longestPalindrome('bananna')))
 print(str(Solution().longestPalindrome('tracecars')))
-print(str(Solution().longestPalindrome('llfdsALAllsfALFbobbob')))
-# racecar
+text1 = "babcbabcbaccba"
+print(str(Solution().longestPalindrome(text1)))
+
+text2 = "abaaba"
+print(str(Solution().longestPalindrome(text2)))
+
+text3 = "abababa"
+print(str(Solution().longestPalindrome(text3)))
+
+text4 = "abcbabcbabcba"
+print(str(Solution().longestPalindrome(text4)))
+
+text5 = "forgeeksskeegfor"
+print(str(Solution().longestPalindrome(text5)))
+
+text6 = "caba"
+print(str(Solution().longestPalindrome(text6)))
