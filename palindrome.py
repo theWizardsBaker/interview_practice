@@ -11,7 +11,6 @@ class Solution:
 			palindrome_ind = [ind, ind]
 			# print "looking at " + s[ind]
 			# walk backwards over the string
-			# for rng_ind in range(string_len - 1, ind -1, -1):
 			rng_ind = string_len - 1
 			while rng_ind >= ind:
 				# return if we meet in the middle (odd number)
